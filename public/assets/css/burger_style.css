@@ -4,8 +4,12 @@
 }
 
 body {
-    background-color: #abcdef
+    background-color: #abcdef;
 }
+
+/* .container {
+    background-color: white;
+} */
 
 .devour {
     float: right
@@ -13,10 +17,26 @@ body {
 
 #devoured {
     opacity: 0.5;
+    background-color: lightblue;
 }
+
+ul {
+ border: 0px;
+ box-shadow: 1px 1px lightgray;
+}
+
+
 img {
     margin-top: 20px;
     width: 100px;
     height: 100px
+}
+
+.devour {
+    box-shadow: 2px 2px lightgrey;
+}
+
+.devour:hover {
+    
 }
 
